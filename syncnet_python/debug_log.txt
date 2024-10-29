@@ -1,0 +1,139 @@
+> /home/tony/Projects/SyncNet/syncnet_python/run_syncnet.py(4)<module>()
+-> import time, pdb, argparse, subprocess, pickle, os, gzip, glob, logging
+(Pdb) (Pdb) /home/tony/Projects/SyncNet/syncnet_python/SyncNetInstance.py:202: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  loaded_state = torch.load(path, map_location=lambda storage, loc: storage);
+The program finished and will be restarted
+> /home/tony/Projects/SyncNet/syncnet_python/run_syncnet.py(4)<module>()
+-> import time, pdb, argparse, subprocess, pickle, os, gzip, glob, logging
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) ion completed.
+2024-10-29 12:03:50,053 - DEBUG - Starting argument parsing.
+2024-10-29 12:03:50,054 - DEBUG - Arguments parsed: Namespace(initial_model='data/syncnet_v2.model', batch_size=20, vshift=15, data_dir='data/work', videofile='data/example.avi', reference='')
+2024-10-29 12:03:50,054 - DEBUG - Directory paths set.
+2024-10-29 12:03:50,054 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 12:03:50,054 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 12:03:50,054 - DEBUG - Work directory: data/work/pywork
+2024-10-29 12:03:50,054 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 12:03:50,054 - DEBUG - Loading model...
+2024-10-29 12:03:50,423 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 12:03:50,423 - DEBUG - Video files found for processing: []
+2024-10-29 12:03:50,423 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 12:03:50,423 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 12:03:50,423 - DEBUG - Script execution completed.
+2024-10-29 12:08:13,179 - DEBUG - Starting argument parsing.
+2024-10-29 12:08:13,180 - DEBUG - Arguments parsed: Namespace(initial_model='data/syncnet_v2.model', batch_size=20, vshift=15, data_dir='data/work', videofile='data/work/pycrop/example/example.avi', reference='example')
+2024-10-29 12:08:13,180 - DEBUG - Directory paths set.
+2024-10-29 12:08:13,180 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 12:08:13,180 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 12:08:13,180 - DEBUG - Work directory: data/work/pywork
+2024-10-29 12:08:13,180 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 12:08:13,180 - DEBUG - Loading model...
+2024-10-29 12:08:13,549 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 12:08:13,549 - DEBUG - Video files found for processing: []
+2024-10-29 12:08:13,549 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 12:08:13,549 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 12:08:13,549 - DEBUG - Script execution completed.
+2024-10-29 14:03:06,821 - DEBUG - Starting argument parsing.
+2024-10-29 14:03:06,822 - DEBUG - Arguments parsed: Namespace(initial_model='data/syncnet_v2.model', batch_size=20, vshift=15, data_dir='data/work', videofile='example_out_of_time.avi', reference='')
+2024-10-29 14:03:06,822 - DEBUG - Directory paths set.
+2024-10-29 14:03:06,822 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 14:03:06,822 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 14:03:06,822 - DEBUG - Work directory: data/work/pywork
+2024-10-29 14:03:06,822 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 14:03:06,822 - DEBUG - Loading model...
+2024-10-29 14:03:07,311 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 14:03:07,311 - DEBUG - Video files found for processing: []
+2024-10-29 14:03:07,311 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 14:03:07,311 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 14:03:07,312 - DEBUG - Script execution completed.
+2024-10-29 14:06:07,394 - DEBUG - Starting argument parsing.
+2024-10-29 14:06:07,395 - DEBUG - Arguments parsed: Namespace(initial_model='data/syncnet_v2.model', batch_size=20, vshift=15, data_dir='data/work', videofile='data/example.avi', reference='')
+2024-10-29 14:06:07,395 - DEBUG - Directory paths set.
+2024-10-29 14:06:07,395 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 14:06:07,395 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 14:06:07,395 - DEBUG - Work directory: data/work/pywork
+2024-10-29 14:06:07,395 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 14:06:07,395 - DEBUG - Loading model...
+2024-10-29 14:06:07,806 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 14:06:07,806 - DEBUG - Video files found for processing: []
+2024-10-29 14:06:07,806 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 14:06:07,806 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 14:06:07,806 - DEBUG - Script execution completed.
+2024-10-29 15:51:32,711 - DEBUG - Starting argument parsing.
+2024-10-29 15:51:32,712 - DEBUG - Arguments parsed: Namespace(initial_model='data/syncnet_v2.model', batch_size=20, vshift=15, data_dir='data/work', videofile='data/example_out_of_sync.avi', reference='')
+2024-10-29 15:51:32,712 - DEBUG - Directory paths set.
+2024-10-29 15:51:32,712 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 15:51:32,712 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 15:51:32,712 - DEBUG - Work directory: data/work/pywork
+2024-10-29 15:51:32,712 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 15:51:32,712 - DEBUG - Loading model...
+2024-10-29 15:51:33,187 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 15:51:33,187 - DEBUG - Video files found for processing: []
+2024-10-29 15:51:33,187 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 15:51:33,187 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 15:51:33,187 - DEBUG - Script execution completed.
+2024-10-29 15:57:01,876 - DEBUG - Starting argument parsing.
+2024-10-29 15:57:01,877 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='', videofile='data/example.avi', vshift=15)
+2024-10-29 15:57:01,877 - DEBUG - Directory paths set.
+2024-10-29 15:57:01,877 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 15:57:01,877 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 15:57:01,877 - DEBUG - Work directory: data/work/pywork
+2024-10-29 15:57:01,877 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 15:57:01,877 - DEBUG - Loading model...
+2024-10-29 15:57:04,678 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 15:57:04,678 - DEBUG - Video files found for processing: []
+2024-10-29 15:57:04,678 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 15:57:04,678 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 15:57:04,678 - DEBUG - Script execution completed.
+2024-10-29 15:58:22,979 - DEBUG - Starting argument parsing.
+2024-10-29 15:58:22,980 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='', videofile='data/example.avi', vshift=15)
+2024-10-29 15:58:22,980 - DEBUG - Directory paths set.
+2024-10-29 15:58:22,980 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 15:58:22,980 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 15:58:22,980 - DEBUG - Work directory: data/work/pywork
+2024-10-29 15:58:22,980 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 15:58:22,980 - DEBUG - Loading model...
+2024-10-29 15:58:25,827 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 15:58:25,827 - DEBUG - Video files found for processing: []
+2024-10-29 15:58:25,827 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 15:58:25,828 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 15:58:25,828 - DEBUG - Script execution completed.
+2024-10-29 15:59:36,554 - DEBUG - Starting argument parsing.
+2024-10-29 15:59:36,555 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='', videofile='data/example.avi', vshift=15)
+2024-10-29 15:59:36,555 - DEBUG - Directory paths set.
+2024-10-29 15:59:36,555 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 15:59:36,555 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 15:59:36,555 - DEBUG - Work directory: data/work/pywork
+2024-10-29 15:59:36,555 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 15:59:36,555 - DEBUG - Loading model...
+2024-10-29 15:59:39,419 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 15:59:39,419 - DEBUG - Video files found for processing: []
+2024-10-29 15:59:39,419 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 15:59:39,420 - DEBUG - Results saved to data/work/pywork/activesd.pckl
+2024-10-29 15:59:39,420 - DEBUG - Script execution completed.
+2024-10-29 16:01:06,375 - DEBUG - Starting argument parsing.
+2024-10-29 16:01:06,376 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0001.avi', vshift=15)
+2024-10-29 16:01:06,376 - DEBUG - Directory paths set.
+2024-10-29 16:01:06,376 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:01:06,376 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:01:06,376 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:01:06,376 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:01:06,376 - DEBUG - Loading model...
+2024-10-29 16:01:09,175 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:01:09,175 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi']
+2024-10-29 16:01:09,181 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:01:09,181 - DEBUG - Evaluating file 1/1: data/work/pycrop/example/0001.avi
+2024-10-29 16:01:11,359 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:01:11,359 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:01:11,359 - DEBUG - Script execution completed.
