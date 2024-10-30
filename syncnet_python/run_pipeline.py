@@ -47,44 +47,44 @@ print(f"Arguments: data_dir={opt.data_dir}, videofile={opt.videofile}, reference
 
 def track_shot(opt, scenefaces):
     print("Starting face tracking...")
-    iouThres = 0.5  # Minimum IOU between consecutive face detections
+    iouThres = 0.5
     tracks = []
 
-    while True:
-        track = []
-        for framefaces in scenefaces:
-            for face in framefaces:
-                if track == []:
-                    track.append(face)
-                    framefaces.remove(face)
-                elif face['frame'] - track[-1]['frame'] <= opt.num_failed_det:
-                    iou = bb_intersection_over_union(face['bbox'], track[-1]['bbox'])
+    for frame_idx, framefaces in enumerate(scenefaces):
+        print(f"Processing frame {frame_idx}: Detected faces - {len(framefaces)}")
+        
+        for face in framefaces:
+            print(f"Evaluating face: {face}")
+
+            if tracks:
+                last_track_frame = tracks[-1]['frame'][-1]  # Last frame number from the last track
+                print(f"Last track frame: {last_track_frame}")
+                
+                if face['frame'] - last_track_frame <= opt.num_failed_det:
+                    last_track_face = tracks[-1]['bbox'][-1]  # Last bounding box of the last track
+                    iou = bb_intersection_over_union(face['bbox'], last_track_face)
+                    print(f"IOU with last track face: {iou}")
+
                     if iou > iouThres:
-                        track.append(face)
-                        framefaces.remove(face)
-                        continue
+                        print("Linking to existing track.")
+                        tracks[-1]['frame'].append(face['frame'])
+                        tracks[-1]['bbox'].append(face['bbox'])
+                    else:
+                        print("Starting a new track due to low IOU.")
+                        tracks.append({'frame': [face['frame']], 'bbox': [face['bbox']]})
                 else:
-                    break
-
-        if track == []:
-            break
-        elif len(track) > opt.min_track:
-            framenum = np.array([f['frame'] for f in track])
-            bboxes = np.array([np.array(f['bbox']) for f in track])
-
-            frame_i = np.arange(framenum[0], framenum[-1] + 1)
-
-            bboxes_i = []
-            for ij in range(0, 4):
-                interpfn = interp1d(framenum, bboxes[:, ij])
-                bboxes_i.append(interpfn(frame_i))
-            bboxes_i = np.stack(bboxes_i, axis=1)
-
-            if max(np.mean(bboxes_i[:, 2] - bboxes_i[:, 0]), np.mean(bboxes_i[:, 3] - bboxes_i[:, 1])) > opt.min_face_size:
-                tracks.append({'frame': frame_i, 'bbox': bboxes_i})
+                    print("Starting a new track as frames are too far apart.")
+                    tracks.append({'frame': [face['frame']], 'bbox': [face['bbox']]})
+            else:
+                print("Starting a new track as no previous track is available.")
+                tracks.append({'frame': [face['frame']], 'bbox': [face['bbox']]})
 
     print(f"Completed tracking with {len(tracks)} tracks found.")
     return tracks
+
+
+
+
 
 # ========== ========== ========== ==========
 # # FACE DETECTION
@@ -120,6 +120,59 @@ def inference_video(opt):
 
     print(f"Face detection completed, results saved to {savepath}")
     return dets
+
+
+
+def bb_intersection_over_union(boxA, boxB):
+    # Unpack the bounding box coordinates
+    xA = max(boxA[0], boxB[0])
+    yA = max(boxA[1], boxB[1])
+    xB = min(boxA[2], boxB[2])
+    yB = min(boxA[3], boxB[3])
+
+    # Compute the area of intersection rectangle
+    interArea = max(0, xB - xA + 1) * max(0, yB - yA + 1)
+
+    # Compute the area of both the prediction and ground-truth rectangles
+    boxAArea = (boxA[2] - boxA[0] + 1) * (boxA[3] - boxA[1] + 1)
+    boxBArea = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
+
+    # Compute the intersection over union by dividing the intersection area by the sum of
+    # the prediction + ground-truth areas - the intersection area
+    iou = interArea / float(boxAArea + boxBArea - interArea)
+
+    return iou
+
+import cv2
+
+def crop_video(opt, track, output_dir):
+    # Create output directory if it doesn't exist
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    # Load the video file corresponding to the track
+    video_path = os.path.join(opt.avi_dir, opt.reference, 'video.avi')
+    cap = cv2.VideoCapture(video_path)
+
+    for i, bbox in enumerate(track['bbox']):
+        # Read the video frame corresponding to the track
+        frame_num = track['frame'][i]
+        cap.set(cv2.CAP_PROP_POS_FRAMES, frame_num)
+        ret, frame = cap.read()
+
+        if ret:
+            # Crop the frame using the bounding box
+            x1, y1, x2, y2 = map(int, bbox)
+            cropped_frame = frame[y1:y2, x1:x2]
+
+            # Save the cropped frame to the output directory
+            output_path = os.path.join(output_dir, f'frame_{frame_num:05d}.jpg')
+            cv2.imwrite(output_path, cropped_frame)
+
+    cap.release()
+
+
+
 
 # ========== ========== ========== ==========
 # # SCENE DETECTION

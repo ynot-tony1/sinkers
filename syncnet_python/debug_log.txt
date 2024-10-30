@@ -137,3 +137,374 @@ The program finished and will be restarted
  [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
 2024-10-29 16:01:11,359 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
 2024-10-29 16:01:11,359 - DEBUG - Script execution completed.
+2024-10-29 16:12:45,289 - DEBUG - Starting argument parsing.
+2024-10-29 16:12:45,290 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0001.avi', vshift=15)
+2024-10-29 16:12:45,290 - DEBUG - Directory paths set.
+2024-10-29 16:12:45,290 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:12:45,290 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:12:45,290 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:12:45,290 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:12:45,290 - DEBUG - Loading model...
+2024-10-29 16:12:48,055 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:12:48,056 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi']
+2024-10-29 16:12:48,056 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:12:48,056 - DEBUG - Evaluating file 1/1: data/work/pycrop/example/0001.avi
+2024-10-29 16:12:50,173 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:12:50,174 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:12:50,174 - DEBUG - Script execution completed.
+2024-10-29 16:13:39,353 - DEBUG - Starting argument parsing.
+2024-10-29 16:13:39,354 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0002.avi', vshift=15)
+2024-10-29 16:13:39,354 - DEBUG - Directory paths set.
+2024-10-29 16:13:39,354 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:13:39,354 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:13:39,354 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:13:39,354 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:13:39,354 - DEBUG - Loading model...
+2024-10-29 16:13:42,294 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:13:42,295 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi']
+2024-10-29 16:13:42,295 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:13:42,295 - DEBUG - Evaluating file 1/2: data/work/pycrop/example/0001.avi
+2024-10-29 16:13:44,418 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:13:44,419 - DEBUG - Evaluating file 2/2: data/work/pycrop/example/0002.avi
+2024-10-29 16:13:46,571 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:13:46,572 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:13:46,572 - DEBUG - Script execution completed.
+2024-10-29 16:28:53,065 - DEBUG - Starting argument parsing.
+2024-10-29 16:28:53,066 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/example_synced.avi', vshift=15)
+2024-10-29 16:28:53,066 - DEBUG - Directory paths set.
+2024-10-29 16:28:53,066 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:28:53,066 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:28:53,066 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:28:53,066 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:28:53,066 - DEBUG - Loading model...
+2024-10-29 16:28:55,844 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:28:55,844 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi']
+2024-10-29 16:28:55,844 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:28:55,844 - DEBUG - Evaluating file 1/2: data/work/pycrop/example/0001.avi
+2024-10-29 16:28:58,058 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:28:58,058 - DEBUG - Evaluating file 2/2: data/work/pycrop/example/0002.avi
+2024-10-29 16:29:00,225 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:29:00,226 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:29:00,226 - DEBUG - Script execution completed.
+2024-10-29 16:32:07,771 - DEBUG - Starting argument parsing.
+2024-10-29 16:32:07,772 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0002_synced.avi', vshift=15)
+2024-10-29 16:32:07,772 - DEBUG - Directory paths set.
+2024-10-29 16:32:07,772 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:32:07,772 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:32:07,772 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:32:07,772 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:32:07,772 - DEBUG - Loading model...
+2024-10-29 16:32:10,621 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:32:10,621 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_synced.avi']
+2024-10-29 16:32:10,621 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:32:10,621 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:32:12,750 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:32:12,751 - DEBUG - Evaluating file 2/3: data/work/pycrop/example/0002.avi
+2024-10-29 16:32:14,874 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:32:14,875 - DEBUG - Evaluating file 3/3: data/work/pycrop/example/0002_synced.avi
+2024-10-29 16:32:17,045 - DEBUG - Offset: -15, Confidence: 2.189669609069824, Distance: [[ 7.731  7.731  7.731 ...  6.011  6.011  6.011]
+ [ 9.181  9.181  9.181 ...  4.454  4.454  4.454]
+ [ 8.284  8.284  8.284 ...  8.027  8.027  8.027]
+ ...
+ [ 18.947  16.451  13.919 ...  11.827  11.827  11.827]
+ [ 16.808  16.704  16.788 ...  11.244  11.244  11.244]
+ [ 19.599  20.689  18.577 ...  12.408  12.408  12.408]]
+2024-10-29 16:32:17,046 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:32:17,046 - DEBUG - Script execution completed.
+2024-10-29 16:36:30,532 - DEBUG - Starting argument parsing.
+2024-10-29 16:36:30,533 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0002_synced.avi', vshift=15)
+2024-10-29 16:36:30,533 - DEBUG - Directory paths set.
+2024-10-29 16:36:30,533 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:36:30,533 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:36:30,533 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:36:30,533 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:36:30,533 - DEBUG - Loading model...
+2024-10-29 16:36:33,377 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:36:33,378 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_synced.avi']
+2024-10-29 16:36:33,378 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:36:33,378 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:39:19,512 - DEBUG - Starting argument parsing.
+2024-10-29 16:39:19,513 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0002_synced.avi', vshift=15)
+2024-10-29 16:39:19,513 - DEBUG - Directory paths set.
+2024-10-29 16:39:19,513 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:39:19,513 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:39:19,513 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:39:19,513 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:39:19,513 - DEBUG - Loading model...
+2024-10-29 16:39:22,667 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:39:22,667 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_synced.avi']
+2024-10-29 16:39:22,667 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:39:22,667 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:39:25,089 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:39:25,089 - DEBUG - Evaluating file 2/3: data/work/pycrop/example/0002.avi
+2024-10-29 16:39:27,366 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:39:27,366 - DEBUG - Evaluating file 3/3: data/work/pycrop/example/0002_synced.avi
+2024-10-29 16:39:29,564 - DEBUG - Offset: -15, Confidence: 2.189669609069824, Distance: [[ 7.731  7.731  7.731 ...  6.011  6.011  6.011]
+ [ 9.181  9.181  9.181 ...  4.454  4.454  4.454]
+ [ 8.284  8.284  8.284 ...  8.027  8.027  8.027]
+ ...
+ [ 18.947  16.451  13.919 ...  11.827  11.827  11.827]
+ [ 16.808  16.704  16.788 ...  11.244  11.244  11.244]
+ [ 19.599  20.689  18.577 ...  12.408  12.408  12.408]]
+2024-10-29 16:39:29,564 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:39:29,564 - DEBUG - Script execution completed.
+2024-10-29 16:40:14,480 - DEBUG - Starting argument parsing.
+2024-10-29 16:40:14,481 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0002_synced.avi', vshift=15)
+2024-10-29 16:40:14,481 - DEBUG - Directory paths set.
+2024-10-29 16:40:14,481 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:40:14,481 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:40:14,481 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:40:14,481 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:40:14,481 - DEBUG - Loading model...
+2024-10-29 16:40:17,311 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:40:17,312 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_synced.avi']
+2024-10-29 16:40:17,312 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:40:17,312 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:40:19,522 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:40:19,522 - DEBUG - Evaluating file 2/3: data/work/pycrop/example/0002.avi
+2024-10-29 16:40:21,666 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:40:21,667 - DEBUG - Evaluating file 3/3: data/work/pycrop/example/0002_synced.avi
+2024-10-29 16:40:23,793 - DEBUG - Offset: -15, Confidence: 2.189669609069824, Distance: [[ 7.731  7.731  7.731 ...  6.011  6.011  6.011]
+ [ 9.181  9.181  9.181 ...  4.454  4.454  4.454]
+ [ 8.284  8.284  8.284 ...  8.027  8.027  8.027]
+ ...
+ [ 18.947  16.451  13.919 ...  11.827  11.827  11.827]
+ [ 16.808  16.704  16.788 ...  11.244  11.244  11.244]
+ [ 19.599  20.689  18.577 ...  12.408  12.408  12.408]]
+2024-10-29 16:40:23,794 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:40:23,794 - DEBUG - Script execution completed.
+2024-10-29 16:44:42,576 - DEBUG - Starting argument parsing.
+2024-10-29 16:44:42,577 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0002_out_of_sync.avi', vshift=15)
+2024-10-29 16:44:42,577 - DEBUG - Directory paths set.
+2024-10-29 16:44:42,577 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:44:42,577 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:44:42,577 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:44:42,577 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:44:42,577 - DEBUG - Loading model...
+2024-10-29 16:44:45,380 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:44:45,380 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_out_of_sync.avi']
+2024-10-29 16:44:45,380 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:44:45,380 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:44:47,537 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:44:47,537 - DEBUG - Evaluating file 2/3: data/work/pycrop/example/0002.avi
+2024-10-29 16:44:49,632 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:44:49,633 - DEBUG - Evaluating file 3/3: data/work/pycrop/example/0002_out_of_sync.avi
+2024-10-29 16:44:51,753 - DEBUG - Offset: -15, Confidence: 2.224710464477539, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 15.569  15.993  14.347 ...  11.827  11.827  11.827]
+ [ 15.629  17.750  16.065 ...  11.244  11.244  11.244]
+ [ 20.789  20.860  17.892 ...  12.408  12.408  12.408]]
+2024-10-29 16:44:51,759 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:44:51,759 - DEBUG - Script execution completed.
+2024-10-29 16:47:59,295 - DEBUG - Starting argument parsing.
+2024-10-29 16:47:59,296 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/example.avi', vshift=15)
+2024-10-29 16:47:59,296 - DEBUG - Directory paths set.
+2024-10-29 16:47:59,296 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:47:59,296 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:47:59,296 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:47:59,296 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:47:59,297 - DEBUG - Loading model...
+2024-10-29 16:48:02,193 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:48:02,194 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_out_of_sync.avi']
+2024-10-29 16:48:02,194 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:48:02,194 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:48:04,320 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:48:04,321 - DEBUG - Evaluating file 2/3: data/work/pycrop/example/0002.avi
+2024-10-29 16:48:06,514 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:48:06,514 - DEBUG - Evaluating file 3/3: data/work/pycrop/example/0002_out_of_sync.avi
+2024-10-29 16:48:08,641 - DEBUG - Offset: -15, Confidence: 2.224710464477539, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 15.569  15.993  14.347 ...  11.827  11.827  11.827]
+ [ 15.629  17.750  16.065 ...  11.244  11.244  11.244]
+ [ 20.789  20.860  17.892 ...  12.408  12.408  12.408]]
+2024-10-29 16:48:08,641 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:48:08,641 - DEBUG - Script execution completed.
+2024-10-29 16:49:18,033 - DEBUG - Starting argument parsing.
+2024-10-29 16:49:18,034 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/example.avi', vshift=15)
+2024-10-29 16:49:18,034 - DEBUG - Directory paths set.
+2024-10-29 16:49:18,034 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 16:49:18,034 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 16:49:18,034 - DEBUG - Work directory: data/work/pywork
+2024-10-29 16:49:18,034 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 16:49:18,034 - DEBUG - Loading model...
+2024-10-29 16:49:20,804 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 16:49:20,805 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi', 'data/work/pycrop/example/0002_out_of_sync.avi']
+2024-10-29 16:49:20,805 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 16:49:20,805 - DEBUG - Evaluating file 1/3: data/work/pycrop/example/0001.avi
+2024-10-29 16:49:22,956 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 16:49:22,956 - DEBUG - Evaluating file 2/3: data/work/pycrop/example/0002.avi
+2024-10-29 16:49:25,116 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 16:49:25,116 - DEBUG - Evaluating file 3/3: data/work/pycrop/example/0002_out_of_sync.avi
+2024-10-29 16:49:27,195 - DEBUG - Offset: -15, Confidence: 2.224710464477539, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 15.569  15.993  14.347 ...  11.827  11.827  11.827]
+ [ 15.629  17.750  16.065 ...  11.244  11.244  11.244]
+ [ 20.789  20.860  17.892 ...  12.408  12.408  12.408]]
+2024-10-29 16:49:27,195 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 16:49:27,195 - DEBUG - Script execution completed.
+2024-10-29 17:16:45,776 - DEBUG - Starting argument parsing.
+2024-10-29 17:16:45,777 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/0001.avi', vshift=15)
+2024-10-29 17:16:45,777 - DEBUG - Directory paths set.
+2024-10-29 17:16:45,777 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 17:16:45,777 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 17:16:45,777 - DEBUG - Work directory: data/work/pywork
+2024-10-29 17:16:45,777 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 17:16:45,777 - DEBUG - Loading model...
+2024-10-29 17:16:48,573 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 17:16:48,573 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi']
+2024-10-29 17:16:48,573 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 17:16:48,573 - DEBUG - Evaluating file 1/2: data/work/pycrop/example/0001.avi
+2024-10-29 17:16:50,729 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 17:16:50,729 - DEBUG - Evaluating file 2/2: data/work/pycrop/example/0002.avi
+2024-10-29 17:16:52,919 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 17:16:52,920 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 17:16:52,920 - DEBUG - Script execution completed.
+2024-10-29 17:17:08,444 - DEBUG - Starting argument parsing.
+2024-10-29 17:17:08,445 - DEBUG - Arguments parsed: Namespace(batch_size=20, data_dir='data/work', initial_model='data/syncnet_v2.model', reference='example', videofile='data/work/pycrop/example/video.avi', vshift=15)
+2024-10-29 17:17:08,445 - DEBUG - Directory paths set.
+2024-10-29 17:17:08,445 - DEBUG - AVI directory: data/work/pyavi
+2024-10-29 17:17:08,445 - DEBUG - TMP directory: data/work/pytmp
+2024-10-29 17:17:08,445 - DEBUG - Work directory: data/work/pywork
+2024-10-29 17:17:08,445 - DEBUG - Crop directory: data/work/pycrop
+2024-10-29 17:17:08,445 - DEBUG - Loading model...
+2024-10-29 17:17:11,236 - DEBUG - Model data/syncnet_v2.model loaded successfully.
+2024-10-29 17:17:11,237 - DEBUG - Video files found for processing: ['data/work/pycrop/example/0001.avi', 'data/work/pycrop/example/0002.avi']
+2024-10-29 17:17:11,237 - DEBUG - Starting offset evaluation for each video file.
+2024-10-29 17:17:11,237 - DEBUG - Evaluating file 1/2: data/work/pycrop/example/0001.avi
+2024-10-29 17:17:13,383 - DEBUG - Offset: 3, Confidence: 10.081464767456055, Distance: [[ 9.544  9.544  9.544 ...  18.167  12.518  9.136]
+ [ 11.426  11.426  11.426 ...  20.660  18.269  15.385]
+ [ 12.351  12.351  12.351 ...  22.815  20.603  18.819]
+ ...
+ [ 19.604  18.962  16.961 ...  11.827  11.827  11.827]
+ [ 17.917  18.092  18.485 ...  11.244  11.244  11.244]
+ [ 16.732  18.931  20.713 ...  12.408  12.408  12.408]]
+2024-10-29 17:17:13,383 - DEBUG - Evaluating file 2/2: data/work/pycrop/example/0002.avi
+2024-10-29 17:17:15,482 - DEBUG - Offset: -15, Confidence: 2.1424875259399414, Distance: [[ 8.243  8.243  8.243 ...  7.921  7.921  7.921]
+ [ 8.400  8.400  8.400 ...  12.362  12.362  12.362]
+ [ 9.645  9.645  9.645 ...  10.988  10.988  10.988]
+ ...
+ [ 19.034  16.462  13.923 ...  11.827  11.827  11.827]
+ [ 17.113  16.930  16.215 ...  11.244  11.244  11.244]
+ [ 20.067  20.180  18.233 ...  12.408  12.408  12.408]]
+2024-10-29 17:17:15,483 - DEBUG - Results saved to data/work/pywork/example/activesd.pckl
+2024-10-29 17:17:15,483 - DEBUG - Script execution completed.

@@ -1,7 +1,41 @@
+click==8.1.7
+cycler==0.11.0
+importlib-metadata==6.7.0
+kiwisolver==1.4.5
+matplotlib==3.3.4
+numpy==1.18.1
+opencv-contrib-python==4.10.0.84
+opencv-python==4.10.0.84
+Pillow==9.5.0
+pyparsing==3.1.4
+python-dateutil==2.9.0.post0
+python-speech-features==0.6
+scenedetect==0.5.1
+scipy==1.2.1
+six==1.16.0
 torch==1.4.0
 torchvision==0.5.0
-numpy==1.18.1
-scipy==1.2.1
-scenedetect==0.5.1
-opencv-contrib-python
-python_speech_features
+typing_extensions==4.7.1
+zipp==3.15.0
+
+# Other Requirements
+
+# Python Python 3.7.17
+# Cuda toolkit release 10.1, V10.1.243
+# Ubuntu 22.04.5 LTS
+# Linux Kernel = 6.8.0-47-generic
+
+# Old Requirements
+
+# torch==1.4.0
+#  torchvision==0.5.0
+#  numpy==1.18.1
+#  scipy==1.2.1
+#  scenedetect==0.5.1
+#  opencv-contrib-python
+# python_speech_features
+
+
+
+
+
