@@ -1,0 +1,202 @@
+ony@rando-comp:~/Projects/SyncNet/syncnet_python$ tree -L 5
+.
+├── data
+│   ├── 0003.avi
+│   ├── example_back_in_sync.avi
+│   ├── example_out_of_sync.avi
+│   ├── pytmp
+│   │   ├── 000001.jpg
+....
+│   │   ├── 000317.jpg
+│   │   └── audio.wav
+│   ├── SyncNet.code-workspace
+│   ├── syncnet_v2.model
+│   └── work
+│       ├── pyavi
+│       │   └── example
+│       │       ├── audio.wav
+│       │       └── video.avi
+│       ├── pycrop
+│       │   └── example
+│       │       ├── 00000
+│       │       ├── 0001.avi
+│       │       ├── 0001_synced_final.avi
+│       │       ├── 0002.avi
+│       │       ├── 0002_synced_manual.avi
+│       │       └── video.avi
+│       ├── pyframes
+│       │   └── example
+│       │       ├── 000001.jpg
+│       ...
+│       │       └── 000319.jpg
+│       ├── pytmp
+│       │   └── example
+│       │       ├── 000001.jpg
+│       │...
+│       │       ├── 000321.jpg
+│       │       └── audio.wav
+│       └── pywork
+│           ├── activesd.pckl
+│           ├── example
+│           │   ├── activesd.pckl
+│           │   ├── faces.pckl
+│           │   ├── scene.pckl
+│           │   └── tracks.pckl
+│           ├── example_back_in_sync
+│           │   └── activesd.pckl
+│           ├── example_out_of_sync
+│           │   └── activesd.pckl
+│           └── faces.pckl
+├── debug_log.txt
+├── demo_feature.py
+├── demo_syncnet.py
+├── detectors
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   └── __init__.cpython-37.pyc
+│   ├── README.md
+│   └── s3fd
+│       ├── box_utils.py
+│       ├── __init__.py
+│       ├── nets.py
+│       ├── __pycache__
+│       │   ├── box_utils.cpython-310.pyc
+│       │   ├── box_utils.cpython-37.pyc
+│       │   ├── __init__.cpython-310.pyc
+│       │   ├── __init__.cpython-37.pyc
+│       │   ├── nets.cpython-310.pyc
+│       │   └── nets.cpython-37.pyc
+│       └── weights
+│           └── sfd_face.pth
+├── download_model.sh
+├── error.log
+├── img
+│   ├── ex1.jpg
+│   └── ex2.jpg
+├── LICENSE.md
+├── load_and_print_results.py
+├── output_log.txt
+├── __pycache__
+│   ├── SyncNetInstance.cpython-310.pyc
+│   ├── SyncNetInstance.cpython-37.pyc
+│   ├── SyncNetModel.cpython-310.pyc
+│   └── SyncNetModel.cpython-37.pyc
+├── README.md
+├── requirements.txt
+├── requirementz.txt
+├── requi.txt
+├── requiurementz3.txt
+├── run_pipeline.py
+├── run_syncnet.py
+├── run_syncnet_sequence.py
+├── run_visualise.py
+├── sync_audio.py
+├── sync_audio_video.sh
+├── SyncNetInstance.py
+├── SyncNetModel.py
+├── sync_video.py
+└── venv
+    ├── bin
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── convert-caffe2-to-onnx
+    │   ├── convert-onnx-to-caffe2
+    │   ├── easy_install
+    │   ├── easy_install-3.7
+    │   ├── f2py
+    │   ├── f2py3
+    │   ├── f2py3.7
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.7
+    │   ├── python -> python3.7
+    │   ├── python3 -> python3.7
+    │   ├── python3.7 -> /usr/bin/python3.7
+    │   ├── scenedetect
+    │   └── uvicorn
+    ├── include
+    ├── lib
+    │   └── python3.7
+    │       └── site-packages
+    │           ├── annotated_types
+    │           ├── annotated_types-0.5.0.dist-info
+    │           ├── anyio
+    │           ├── anyio-3.7.1.dist-info
+    │           ├── caffe2
+    │           ├── click
+    │           ├── click-8.1.7.dist-info
+    │           ├── cv2
+    │           ├── cycler-0.11.0.dist-info
+    │           ├── cycler.py
+    │           ├── dateutil
+    │           ├── easy_install.py
+    │           ├── exceptiongroup
+    │           ├── exceptiongroup-1.2.2.dist-info
+    │           ├── fastapi
+    │           ├── fastapi-0.103.2.dist-info
+    │           ├── h11
+    │           ├── h11-0.14.0.dist-info
+    │           ├── idna
+    │           ├── idna-3.10.dist-info
+    │           ├── importlib_metadata
+    │           ├── importlib_metadata-6.7.0.dist-info
+    │           ├── kiwisolver
+    │           ├── kiwisolver-1.4.5.dist-info
+    │           ├── LICENSE
+    │           ├── matplotlib
+    │           ├── matplotlib-3.3.4.dist-info
+    │           ├── matplotlib-3.3.4-py3.7-nspkg.pth
+    │           ├── mpl_toolkits
+    │           ├── numpy
+    │           ├── numpy-1.18.1.dist-info
+    │           ├── opencv_contrib_python-4.10.0.84.dist-info
+    │           ├── opencv_contrib_python.libs
+    │           ├── opencv_python-4.10.0.84.dist-info
+    │           ├── opencv_python.libs
+    │           ├── package-info.rst
+    │           ├── PIL
+    │           ├── Pillow-9.5.0.dist-info
+    │           ├── Pillow.libs
+    │           ├── pip
+    │           ├── pip-23.0.1.dist-info
+    │           ├── pkg_resources
+    │           ├── __pycache__
+    │           ├── pydantic
+    │           ├── pydantic-2.5.3.dist-info
+    │           ├── pydantic_core
+    │           ├── pydantic_core-2.14.6.dist-info
+    │           ├── pylab.py
+    │           ├── pyparsing
+    │           ├── pyparsing-3.1.4.dist-info
+    │           ├── python_dateutil-2.9.0.post0.dist-info
+    │           ├── python_speech_features
+    │           ├── python_speech_features-0.6.dist-info
+    │           ├── scenedetect
+    │           ├── scenedetect-0.5.1.dist-info
+    │           ├── scipy
+    │           ├── scipy-1.2.1.dist-info
+    │           ├── setuptools
+    │           ├── setuptools-47.1.0.dist-info
+    │           ├── six-1.16.0.dist-info
+    │           ├── six.py
+    │           ├── sniffio
+    │           ├── sniffio-1.3.1.dist-info
+    │           ├── starlette
+    │           ├── starlette-0.27.0.dist-info
+    │           ├── torch
+    │           ├── torch-1.4.0.dist-info
+    │           ├── torchvision
+    │           ├── torchvision-0.5.0.dist-info
+    │           ├── typing_extensions-4.7.1.dist-info
+    │           ├── typing_extensions.py
+    │           ├── uvicorn
+    │           ├── uvicorn-0.22.0.dist-info
+    │           ├── zipp
+    │           └── zipp-3.15.0.dist-info
+    ├── lib64 -> lib
+    └── pyvenv.cfg
+
+97 directories, 1048 files
+tony@rando-comp:~/Projects/SyncNet/syncnet_python$ 

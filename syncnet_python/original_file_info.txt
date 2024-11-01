@@ -1,0 +1,12 @@
+codec_name=mpeg4
+width=224
+height=224
+r_frame_rate=25/1
+avg_frame_rate=25/1
+duration=12.680000
+codec_name=pcm_s16le
+sample_rate=16000
+channels=1
+r_frame_rate=0/0
+avg_frame_rate=0/0
+duration=N/A

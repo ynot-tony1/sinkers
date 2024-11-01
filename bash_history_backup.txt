@@ -1,0 +1,841 @@
+    1  cd ..
+    2  python run_syncnet.py --videofile data/work/example.avi
+    3  python3 run_syncnet.py --videofile data/work/example.avi
+    4  source venv/bin/activate
+    5  python3 run_syncnet.py --videofile data/work/example.avi
+    6  python3 demo_syncnet.py --videofile data/work/example.avi
+    7  sudo apt update
+    8  sudo apt upgrade -y
+    9  sudo apt install -y git python3-pip python3-venv ffmpeg
+   10  mkdir -p ~/Projects/SyncNet
+   11  cd ~/Projects/SyncNet
+   12  git clone https://github.com/joonson/syncnet_python.git
+   13  cd syncnet_python
+   14  python3 -m venv venv
+   15  source venv/bin/activate
+   16  pip install -r requirements.txt
+   17  chmod +x download_model.sh
+   18  ./download_model.sh
+   19  ls
+   20  cd data
+   21  ls
+   22  cd ..
+   23  python run_syncnet.py --videofile example.avi
+   24  mkdir -p data/work/pywork
+   25  python run_syncnet.py --videofile example.avi
+   26  cd data/work
+   27  ls
+   28  cd pywork
+   29  ls
+   30  python
+   31  cd home
+   32  cd projects
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd Projects
+   37  ls
+   38  cd projects
+   39  cd Projects
+   40  ls
+   41  cd syncnet
+   42  cd SyncNet
+   43  ls
+   44  cd syncnet_python
+   45  ls
+   46  source venv/bin/activate
+   47  python run_pipeline.py --videofile example.avi
+   48  cd ..
+   49  python run_pipeline.py --videofile example.avi
+   50  cp data/example.avi data/work/pyavi/video.avi
+   51  python run_syncnet.py --videofile example.avi
+   52  cd syncnet_python
+   53  python run_syncnet.py --videofile example.avi
+   54  cd ..
+   55  [200~grep -r 'output' ~/Projects/SyncNet/syncnet_python
+   56  ~grep -r 'output' ~/Projects/SyncNet/syncnet_python
+   57  grep -r 'output' ~/Projects/SyncNet/syncnet_python
+   58  python run_syncnet.py --videofile data/example.avi --output_dir data/output --avi_dir data/work/pyavi
+   59  cd syncnet_python
+   60  python run_syncnet.py --videofile data/example.avi --output_dir data/output --avi_dir data/work/pyavi
+   61  python run_syncnet.py --videofile data/example.avi --data_dir data/work --reference example
+   62  mkdir -p data/work/pywork/example
+   63  python run_syncnet.py --videofile data/example.avi --data_dir data/work --reference example
+   64  python
+   65  ls -R ~/Projects/SyncNet/syncnet_python | grep log
+   66  python run_syncnet.py --videofile example.avi
+   67  cd Projects
+   68  cd SyncNet
+   69  cd syncnet_python
+   70  source venv/bin/activate
+   71  python run_syncnet.py --videofile example.avi
+   72  import pickle
+   73  # Load the pickle file
+   74  with open("data/work/pywork/activesd.pckl", "rb") as file:
+   75  # Display the contents
+   76  print("Contents of activesd.pckl:")
+   77  print(data)
+   78  import pickle
+   79  with open("data/work/pywork/activesd.pckl", "rb") as file:
+   80  import pickle
+   81  # Load the pickle file
+   82  with open("data/work/pywork/activesd.pckl", "rb") as file:
+   83  # Display the contents
+   84  print("Contents of activesd.pckl:")
+   85  print(data)
+   86  python
+   87  cp example.avi data/work/pyavi/0.avi
+   88  python run_syncnet.py --videofile example.avi
+   89  python
+   90  cd ..
+   91  tree
+   92  ls -R data/work/
+   93  ls -R
+   94  ls -R data/work/ | grep ":$\|^ "
+   95  ls -R | grep ":$\|^ "
+   96  cd Projects
+   97  cd SyncNet
+   98  cd syncnet_python
+   99  source venv/bin/activate
+  100  python run_syncnet.py --videofile example.avi
+  101  cd ..
+  102  find . -type d
+  103  python run_syncnet.py --videofile example.avi
+  104  cd syncnet_python
+  105  python run_syncnet.py --videofile example.avi
+  106  python
+  107  python sync_video.py
+  108  python run_syncnet.py --videofile data/new_video.avi
+  109  python
+  110  python sync_video.py
+  111  python run_syncnet.py --videofile data/synced_video.avi
+  112  python run_syncnet.py --videofile example.avi
+  113  python run_syncnet.py --videofile data/example.avi
+  114  python sync_video.py
+  115  cd Projects
+  116  cd SyncNet
+  117  cd syncnet_python
+  118  source venv/bin/activate
+  119  python run_syncnet.py --videofile example.avi
+  120  python -u run_syncnet.py --videofile example.avi
+  121  source venv/bin/activate
+  122  cd syncnet_python
+  123  source venv/bin/activate
+  124  python sync_video.py
+  125  python run_syncnet.py --videofile data/synced_video.avi
+  126  python
+  127  python run_syncnet.py --videofile data/example.avi 
+  128  md5sum data/example.avi data/synced_video.avi
+  129  To give me the data to analyze the synchronization of `data/example.avi` and `data/synced_video.avi`, you can provide the SyncNet output from each video. Here’s how:
+  130  1. **Run SyncNet Analysis on Both Videos**:
+  131     Use the following commands to analyze each video and generate the required SyncNet output, which includes the offset, confidence, and framewise details:
+  132     ```bash
+  133     python run_syncnet.py --videofile data/example.avi
+  134     python run_syncnet.py --videofile data/synced_video.avi
+  135     ```
+  136     SyncNet will produce output in the terminal, displaying information about the AV offset, confidence score, and other metrics for each file.
+  137  2. **Capture and Share the Output**:
+  138     - Copy the complete output for both `data/example.avi` and `data/synced_video.avi` from the terminal.
+  139     - Paste these outputs in our chat here, clearly labeling each one (e.g., **Original Video Output** and **Synced Video Output**).
+  140  3. **Share the `activesd.pckl` Files** (Optional but Recommended):
+  141     - Each SyncNet analysis generates an `activesd.pckl` file in `data/work/pywork/`.
+  142     - If you can, run each analysis separately to avoid overwriting the file and rename each `activesd.pckl` to distinguish them (e.g., `example_activesd.pckl` and `synced_activesd.pckl`).
+  143     - Compress and upload these `.pckl` files directly here if possible, or share their contents.
+  144  Once you’ve shared the terminal outputs and/or the `.pckl` files, I can help analyze if the synchronization improved based on the AV offset and confidence levels
+  145  python run_syncnet.py --videofile data/synced_video.avi
+  146  python sync_video.py
+  147  python run_syncnet.py --videofile data/example.avi 
+  148  python run_syncnet.py --videofile data/synced_video.avi
+  149  python sync_video.py
+  150  python run_syncnet.py --videofile data/synced_video.avi
+  151  python sync_video.py
+  152  python run_syncnet.py --videofile data/synced_video.avi
+  153  python sync_video.py
+  154  python run_syncnet.py --videofile data/example.avi
+  155  ffmpeg -i out_of_sync.avi -itsoffset 0.5 -i out_of_sync.avi -c:v copy -c:a aac -strict experimental out_of_sync_delayed.avi
+  156  cd data
+  157  ffmpeg -i out_of_sync.avi -itsoffset 0.5 -i out_of_sync.avi -c:v copy -c:a aac -strict experimental out_of_sync_delayed.avi
+  158  python run_syncnet.py --videofile data/out_of_sync_delayed.avi
+  159  cd ..
+  160  python run_syncnet.py --videofile data/out_of_sync_delayed.avi
+  161  cd data
+  162  ffmpeg -i out_of_sync.avi -itsoffset 1.0 -i out_of_sync.avi -c:v copy -c:a aac -strict experimental out_of_sync_delayed.avi
+  163  cd ..
+  164  python run_syncnet.py --videofile data/out_of_sync_delayed.avi
+  165  python
+  166  python run_syncnet.py --videofile data/example.avi 
+  167  python
+  168  [200~pip install matplotlib numpy
+  169  ~pip install matplotlib numpy
+  170  python -m ensurepip --upgrade
+  171  python run_syncnet.py --videofile data/example.avi 
+  172  sudo apt update
+  173  sudo apt install git
+  174  git config --global user.name "ynot-tony1"
+  175  git config --global user.email "tonycowan56@gmail.com"
+  176  git config --list
+  177  git init
+  178  nano ~/.bashrc
+  179  sudo apt-get --purge remove "*cublas*" "cuda*" "nsight*" 
+  180  sudo apt autoremove
+  181  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+  182  sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+  183  sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
+  184  sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
+  185  sudo apt update
+  186  sudo apt install cuda-10-2
+  187  sudo rm /etc/apt/sources.list.d/archive_uri-https_developer_download_nvidia_com_compute_cuda_repos_ubuntu2004_x86_64_-jammy.list
+  188  sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub
+  189  sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
+  190  sudo apt update
+  191  sudo apt install cuda-10-2
+  192  wget https://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
+  193  nvidia-smi
+  194  nano ~/.bashrc
+  195  lspci | grep -i nvidia
+  196  nvidia-smi
+  197  cd syncnet_python
+  198  source venv/bin/activate
+  199  python3 ./code/syncnet.py --videofile ./data/example.avi --tmp_dir ./tmp/example --model_dir ./data/syncnet_v2.model --batch_size 20
+  200  python syncnet_python/run_syncnet.py --videofile data/example.avi --tmp_dir tmp/example --batch_size 20
+  201  python3 ./code/syncnet.py --videofile ./data/example.avi --tmp_dir ./tmp/example --model_dir ./data/syncnet_v2.model --batch_size 20
+  202  cd ..
+  203  python3 ./code/syncnet.py --videofile ./data/example.avi --tmp_dir ./tmp/example --model_dir ./data/syncnet_v2.model --batch_size 20
+  204  python syncnet_python/run_syncnet.py --videofile data/example.avi --tmp_dir tmp/example --batch_size 20
+  205  python3 syncnet_python/run_syncnet.py --videofile data/example.avi --data_dir tmp/example --reference example --batch_size 20
+  206  python run_syncnet.py --videofile data/example.avi 
+  207  cd syncnet_python
+  208  python run_syncnet.py --videofile data/example.avi 
+  209  cd data
+  210  ffmpeg -i data/example.avi -c:v copy -af "adelay=1000|1000" data/example_out_of_sync.avi
+  211  ls
+  212  ffmpeg -i data/example.avi -c:v copy -af "adelay=1000|1000" data/example_out_of_sync.avi
+  213  ls
+  214  ffmpeg -i example.avi -c:v copy -af "adelay=1000|1000" example_out_of_sync.avi
+  215  cd ..
+  216  chmod +x run_syncnet_sequence.py
+  217  ls
+  218  chmod +x run_syncnet_sequence.py
+  219  [200~Sure! Here's a Python script that automates the entire process you've described. It includes running SyncNet on the original video, creating an out-of-sync version, running SyncNet on the out-of-sync video, synchronizing the audio using `sync_video.py`, and then analyzing the synchronized video with SyncNet.
+  220  First, make sure you have the following directory structure in your `data` directory:
+  221  ```
+  222  data/
+  223  ├── example.avi
+  224  ```
+  225  Now, create the main script `run_syncnet_sequence.py`:
+  226  ```python
+  227  #!/usr/bin/env python3
+  228  import subprocess
+  229  import os
+  230  # Define paths and filenames
+  231  data_dir = 'data'
+  232  original_video = os.path.join(data_dir, 'example.avi')
+  233  out_of_sync_video = os.path.join(data_dir, 'example_out_of_sync.avi')
+  234  back_in_sync_video = os.path.join(data_dir, 'example_back_in_sync.avi')
+  235  # Step 1: Run SyncNet on the original video
+  236  print("Running SyncNet on original video...")
+  237  subprocess.run([
+  238      'python', 'run_syncnet.py',
+  239      '--videofile', original_video,
+  240      '--reference', 'example'  # Setting reference to 'example'
+  241  ])
+  242  # Step 2: Create an out-of-sync version of the video by delaying audio by 1 second
+  243  print("Creating out-of-sync video...")
+  244  delay_ms = 1000  # Delay in milliseconds (1000ms = 1s)
+  245  ffmpeg_cmd = [
+  246      'ffmpeg', '-y', '-i', original_video,
+  247      '-filter_complex', f'[0:a]adelay={delay_ms}|{delay_ms}[aud]',
+  248      '-map', '0:v', '-map', '[aud]',
+  249      '-c:v', 'copy', '-c:a', 'aac',
+  250      out_of_sync_video
+  251  ]
+  252  subprocess.run(ffmpeg_cmd)
+  253  # Step 3: Run SyncNet on the out-of-sync video
+  254  print("Running SyncNet on out-of-sync video...")
+  255  subprocess.run([
+  256      'python', 'run_syncnet.py',
+  257      '--videofile', out_of_sync_video,
+  258      '--reference', 'example_out_of_sync'  # Setting reference to 'example_out_of_sync'
+  259  ])
+  260  # Step 4: Synchronize the audio using sync_video.py
+  261  print("Synchronizing the out-of-sync video...")
+  262  results_file = os.path.join(data_dir, 'work', 'pywork', 'example_out_of_sync', 'results.npz')
+  263  subprocess.run([
+  264      'python', 'sync_video.py',
+  265      '--videofile', out_of_sync_video,
+  266      '--resultsfile', results_file,
+  267      '--outputfile', back_in_sync_video
+  268  ])
+  269  # Step 5: Run SyncNet on the synchronized video
+  270  print("Running SyncNet on synchronized video...")
+  271  subprocess.run([
+  272      'python', 'run_syncnet.py',
+  273      '--videofile', back_in_sync_video,
+  274      '--reference', 'example_back_in_sync'  # Setting reference to 'example_back_in_sync'
+  275  ])
+  276  print("All steps completed.")
+  277  ```
+  278  xrandr --output XWAYLAND1 --scale 0.95x0.95
+  279  cvt 1824 1026
+  280  xrandr --newmode "1824x1026_60.00"  155.25  1824 1936 2128 2432  1026 1029 1034 1065 -hsync +vsync
+  281  xrandr --output XWAYLAND1 --mode 1824x1026_60.00
+  282  xrandr --newmode "1824x1026_60.00"  155.25  1824 1936 2128 2432  1026 1029 1034 1065 -hsync +vsync
+  283  xrandr --output XWAYLAND1 --mode 1824x1026_60.00
+  284  xrandr --delmode XWAYLAND1 1824x1026_60.00
+  285  xrandr --newmode "1824x1026_59.94"  155.25  1824 1936 2128 2432  1026 1029 1034 1065 -hsync +vsync
+  286  xrandr --addmode XWAYLAND1 1824x1026_59.94
+  287  xrandr --output XWAYLAND1 --mode 1824x1026_59.94
+  288  xrandr --output XWAYLAND1 --scale 0.95x0.95
+  289  xrandr
+  290  xrandr --delmode XWAYLAND1 1824x1026_60.00
+  291  xrandr
+  292  xrandr --newmode "1824x1026_60.00" 155.25 1824 1936 2128 2432 1026 1029 1034 1065 -hsync +vsync
+  293  xrandr --addmode DP-3 1824x1026_60.00
+  294  xrandr --output DP-3 --mode 1824x1026_60.00
+  295  xrandr
+  296  xrandr --newmode "1824x1026_60.00" 155.25 1824 1936 2128 2432 1026 1029 1034 1065 -hsync +vsync
+  297  xrandr --addmode DP-3 1824x1026_60.00
+  298  xrandr --output DP-3 --mode 1824x1026_60.00
+  299  xrandr --output XWAYLAND1 --transform 1,0,-40,0,1,-40,0,0,1
+  300  xrandr --output DP-3 --transform 1,0,-40,0,1,-40,0,0,1
+  301  xrandr --output DP-3 --mode 1824x1026_60.00
+  302  xrandr --output DP-3 --mode 1920x1080
+  303  xrandr --output eDP-1 --mode 1920x1080 --auto
+  304  xrandr --output eDP-1 --auto
+  305  xrandr --output eDP-1 --primary
+  306  xrandr --output DP-3 --auto --right-of eDP-1
+  307  nvidia-smi
+  308  tony@rando-comp:~$ nvidia-smi
+  309  NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+  310  tony@rando-comp:~$ 
+  311  tony@rando-comp:~$ nvidia-smi
+  312  NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+  313  tony@rando-comp:~$ 
+  314  dpkg -l | grep -i nvidia
+  315  sudo modprobe nvidia
+  316  sudo apt-get purge '*nvidia*'
+  317  sudo reboot
+  318  source venv/bin/activate
+  319  cd syncnet_python
+  320  source venv/bin/activate
+  321  python run_syncnet.py --videofile data/example.avi 
+  322  sudo ubuntu-drivers autoinstall
+  323  sudo reboot
+  324  source venv/bin/activate
+  325  cd syncnet_python
+  326  source venv/bin/activate
+  327  python run_syncnet.py --videofile data/example.avi 
+  328  python -m pdb run_syncnet.py --videofile data/example.avi
+  329  [200~python run_syncnet.py --videofile data/example.avi > debug_log.txt 2>&1
+  330  ~python run_syncnet.py --videofile data/example.avi > debug_log.txt 2>&1
+  331  pip freeze > requi.txt
+  332  pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116
+  333  source venv/bin/activate
+  334  pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116
+  335  pip freeze | xargs pip uninstall -y
+  336  pip install -r requirements.txt
+  337  source venv/bin/activate
+  338  python run_syncnet.py --videofile data/example.avi 
+  339  python -m pdb run_syncnet.py --videofile data/example.avi > debug_log.txt 2>&1
+  340  python
+  341  source venv/bin/activate
+  342  python run_syncnet.py --videofile data/example.avi 
+  343  python
+  344  source venv/bin/activate
+  345  python run_syncnet.py --videofile data/work/pycrop/example/example.avi --reference example
+  346  python
+  347  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  348  git clone https://github.com/joonson/syncnet_python.git
+  349  python3 -m venv myenv
+  350  source myenv/bin/activate
+  351  cd syncnet_python
+  352  chmod +x download_model.sh
+  353  ./download_model.sh
+  354  python3 run_syncnet.py --reference pyavi --videofile data/example.avi
+  355  pip install -r requirements.txt
+  356  python3 run_syncnet.py --reference pyavi --videofile data/example.avi
+  357  mkdir -p data/work/pyavi  # For input video files
+  358  mkdir -p data/work/pytmp  # Temporary files
+  359  mkdir -p data/work/pywork  # For output files
+  360  mkdir -p data/detectors/s3fd/weights  # For S3FD weights
+  361  python3 run_syncnet.py --reference pyavi --videofile data/example.avi
+  362  mkdir -p data/work/pywork/pyavi
+  363  python3 run_syncnet.py --reference pyavi --videofile data/example.avi
+  364  ls data/work/pywork/pyavi/activesd.pckl
+  365  python3 run  check_results.py
+  366  python3 run  check_results.pyls
+  367  ls
+  368  python3 check_results.py
+  369  ls -lh data/work/pywork/pyavi/activesd.pckl
+  370  python3 debug_run_syncnet.py --reference pyavi --data_dir data/work
+  371  python3 check_results.py
+  372  sudo apt-get install tree
+  373  cd ..
+  374  tree -L 3
+  375  source myenv/bin/activate
+  376  pip install -r requirements.txt
+  377  cd syncnet_python
+  378  pip install -r requirements.txt
+  379  python run_syncnet.py --reference pyavi --videofile data/example.avi
+  380  python3 run_syncnet.py
+  381  python3 run  check_results.py
+  382  run  check_results.py
+  383  python3 check_results.py
+  384  tree -L 3
+  385  tree -L 4
+  386  tree -L 5
+  387  python3 run_pipeline.py --videofile data/example.avi --reference example
+  388  python3 run_syncnet.py --reference example
+  389  python3 check_results.py
+  390  cd detectors
+  391  tree -L 5
+  392  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pinsudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda-repo-ubuntu1804-10-1-local-10.1.243-418.87.00_1.0-1_amd64.debsudo dpkg -i cuda-repo-ubuntu1804-10-1-local-10.1.243-418.87.00_1.0-1_amd64.debsudo apt-key add /var/cuda-repo-10-1-local-10.1.243-418.87.00/7fa2af80.pubsudo apt-get updatesudo apt-get -y install cuda
+  393  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
+  394  [200~sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600~
+  395  sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
+  396  wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda-repo-ubuntu1804-10-1-local-10.1.243-418.87.00_1.0-1_amd64.deb
+  397  sudo dpkg -i cuda-repo-ubuntu1804-10-1-local-10.1.243-418.87.00_1.0-1_amd64.deb
+  398  sudo apt-key add /var/cuda-repo-10-1-local-10.1.243-418.87.00/7fa2af80.pub
+  399  sudo apt-get update
+  400  sudo apt-get -y install cuda
+  401  sudo reboot
+  402  python --version
+  403  pip freeze
+  404  nvcc --version
+  405  python -c "import torch; print(torch.__version__, torch.cuda.is_available())
+  406  nvcc --version
+  407  lsb_release -a
+  408  uname -r
+  409  nvidia-smi
+  410  nvcc --version
+  411  dpkg -l | grep cuda
+  412  python3 --version
+  413  python3 -c "import torch; print('PyTorch Version:', torch.__version__); print('CUDA Available:', torch.cuda.is_available()); print('CUDA Version:', torch.version.cuda)"
+  414  pip3 freeze
+  415  echo $PATH | tr ':' '\n' | grep cuda
+  416  echo $LD_LIBRARY_PATH | tr ':' '\n' | grep cuda
+  417  gcc --version
+  418  nvidia-smi
+  419  sudo apt-get --purge remove "*cuda*"
+  420  sudo apt-get --purge remove "*cudnn*"
+  421  sudo apt-get --purge remove "*nvidia*"
+  422  sudo rm -rf /usr/local/cuda*
+  423  sudo rm -rf /usr/local/cuda-*
+  424  sudo apt-get autoremove
+  425  sudo apt-get autoclean
+  426  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  427  detectors/s3fd/box_utils.py
+  428  cd ..
+  429  detectors/s3fd/box_utils.py
+  430  pwd
+  431  ls .vscode
+  432  touch detectors/s3fd/test_file.txt
+  433  python3 run_syncnet.py --reference example
+  434  python run_pipeline.py --videofile data/example.avi --reference example
+  435  source myenv/bin/activate
+  436  pip install -r requirements.txt
+  437  pip install numpy==1.19.5
+  438  cd ..
+  439  sudo apt update
+  440  sudo apt install build-essential python3-dev
+  441  pip install -r requirements.txt
+  442  cd syncnet_python
+  443  pip install -r requirements.txt
+  444  pip check
+  445  pip uninstall numpy
+  446  pip install -r requirements.txt
+  447  source myenv/bin/activate
+  448  python3 run_syncnet.py --reference example
+  449  python3 run_syncnet.py --reference example.avi
+  450  python3 run_syncnet.py --reference example
+  451  python check_results.py
+  452  nvcc --version
+  453  pip install torch==1.13.0+cu115 torchvision==0.14.0+cu115 torchaudio==0.13.0 -f https://download.pytorch.org/whl/torch_stable.html
+  454  source myenv/bin/activate
+  455  cd ..
+  456  source myenv/bin/activate
+  457  deactivate
+  458  source myenv/bin/activate
+  459  cd syncnet_python
+  460  pip install -r requirements.txt
+  461  source myenv/bin/activate
+  462  cd ..
+  463  source myenv/bin/activate
+  464  decativate
+  465  deactivate
+  466  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  467  source myenv/bin/activate
+  468  cd syncnet_python
+  469  python3 run_syncnet.py --reference example
+  470  python check_results.py
+  471  python3 run_syncnet.py --reference example
+  472  python check_results.py
+  473  python3 run_syncnet.py --reference example
+  474  python check_results.py
+  475  ls data/work/pycrop/example/
+  476  python3 run_syncnet.py --reference example
+  477  python check_results.py
+  478  ls data/work/pycrop/example/
+  479  ffmpeg -i data/work/pyavi/example.avi -i data/work/pyavi/example.avi -c:v copy -c:a aac -itsoffset 1 -map 0:v -map 1:a data/work/pyavi/example_out_of_sync.avi
+  480  tree -L 5
+  481  ffmpeg -i data/work/pyavi/example/example.avi -i data/work/pyavi/example/example.avi -c:v copy -c:a aac -itsoffset 1 -map 0:v -map 1:a data/work/pyavi/example_out_of_sync.avi
+  482  ffmpeg -itsoffset 1 -i data/work/pyavi/example.avi -i data/work/pyavi/example.avi -c:v copy -c:a aac -map 0:v -map 1:a data/work/pyavi/example_out_of_sync.avi
+  483  ls data/work/pyavi/example/
+  484  ffmpeg -itsoffset 1 -i data/work/pyavi/example/example.avi -i data/work/pyavi/example/example.avi -c:v copy -c:a aac -map 0:v -map 1:a data/work/pyavi/example_out_of_sync.avi
+  485  python3 run_syncnet.py --reference example_out_of_sync
+  486  git clone https://github.com/joonson/syncnet_python.git
+  487  python3 -m venv venv
+  488  source venv/bin/activate
+  489  pip install -r requirements.txt
+  490  cd syncnet_python
+  491  pip install -r requirements.txt
+  492  bash download_model.sh
+  493  python3 run_pipeline.py --reference example
+  494  python3 run_syncnet.py --reference example
+  495  python3 run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  496  tree -L 5
+  497  python3 run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  498  source venv/bin/activate
+  499  cd syncnet_python
+  500  source venv/bin/activate
+  501  python run_syncnet.py --videofile example_out_of_time.avi
+  502  python run_syncnet.py --videofile data/example.avi 
+  503  ls -l data/work/pyavi/example/
+  504  cd ..
+  505  ls -l data/work/pyavi/example/
+  506  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  507  source venv/bin/activate
+  508  cd ..
+  509  source venv/bin/activate
+  510  cd syncnet_python
+  511  ls -l data/work/pyavi/example/
+  512  python3 run_syncnet.py --videofile data/work/pyavi/example/example.avi --reference example
+  513  pip freeze
+  514  pip install -r requirements.txt
+  515  pip freeze
+  516  pip install -r requirements.txt
+  517  pip freeze
+  518  pip install -r requirements.txt
+  519  pip freeze
+  520  source venv/bin/activate
+  521  pip freeze | xargs pip uninstall -y
+  522  pip install -r requirements.txt
+  523  pip freeze | xargs pip uninstall -y
+  524  pip cache purge
+  525  pip install -r requirements.txt
+  526  pip freeze | xargs pip uninstall -y
+  527  pip cache purge
+  528  pip install -r requirements.txt
+  529  pip freeze | xargs pip uninstall -y
+  530  pip cache purge
+  531  pip install -r requirements.txt
+  532  python3.7 -m venv myenv
+  533  sudo apt update
+  534  sudo apt install software-properties-common
+  535  sudo add-apt-repository ppa:deadsnakes/ppa
+  536  sudo apt install python3.7
+  537  python3.7 --version
+  538  nvcc --version
+  539  sudo apt remove --purge '^cuda.*'
+  540  wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda-repo-ubuntu1804-10-1-local_10.1.243-1_amd64.deb
+  541  wget https://developer.download.nvidia.com/compute/cuda/10.1/Prod/ubuntu1804/x86_64/cuda-ubuntu1804.pin
+  542  echo "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/ /" | sudo tee /etc/apt/sources.list.d/cuda.list
+  543  sudo apt update
+  544  sudo apt install cuda-10-1
+  545  sudo apt remove --purge nvidia-* cuda-*
+  546  sudo apt autoremove
+  547  sudo apt clean
+  548  sudo apt install cuda-10-1
+  549  nvcc --version
+  550  sudo reboot
+  551  sudo apt install python3.7-venv python3.7-distutils
+  552  sudo apt install curl
+  553  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  554  pip install -r requirements.txt
+  555  source venv/bin/activate
+  556  cd ..
+  557  source venv/bin/activate
+  558  deactivate
+  559  python3.7 --version
+  560  python3.7 -m venv myenv
+  561  cd syncnet_python
+  562  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  563  python3.7 get-pip.py
+  564  curl https://bootstrap.pypa.io/pip/3.7/get-pip.py -o get-pip.py
+  565  python3.7 get-pip.py
+  566  cd ..
+  567  python3.7 -m venv myenv
+  568  source myenv/bin/activate
+  569  pip install -r requirements.txt
+  570  cd syncnet_python
+  571  pip install -r requirements.txt
+  572  python run_syncnet.py --videofile data/work/pyavi/example/example.avi 
+  573  python check.py
+  574  pip freeze
+  575  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  576  cd ..
+  577  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  578  cd syncnet_python
+  579  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  580  deactivate
+  581  source myenv/bin/activate
+  582  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  583  cd syncnet_python
+  584  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  585  ls data/work/pywork/example/
+  586  python check.py
+  587  It looks like your script ran successfully, and the model `data/syncnet_v2.model` was loaded without any errors. However, if you are not seeing any output or results after running the command, here are a few things you might want to check or try:
+  588  ### Check Output Files
+  589  1. **Look for Output Files:** After running the `run_syncnet.py` script, check if any output files have been generated. Depending on the implementation of the script, results could be saved in specific directories. For example, check the `data/work/pywork/example/` directory to see if there are any new files like `activesd.pckl` or similar.
+  590  source myenv/bin/activate
+  591  cd ..
+  592  source myenv/bin/activate
+  593  cd syncnet_python
+  594  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  595  python check.py
+  596  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  597  python check.py
+  598  python demo_syncnet.py
+  599  python demo_syncnet.py --videofile data/work/pyavi/example/example.avi
+  600  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  601  python check.py
+  602  python run_syncnet.py --videofile data/work/pyavi/example/example.avi
+  603  python check.py
+  604  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  605  pip uninstall torch torchvision -y
+  606  git clone https://github.com/joonson/syncnet_python.git
+  607  python3.6 -m venv myenv
+  608  unset LD_LIBRARY_PATH
+  609  python3.6 -m venv myenv
+  610  echo $PATH
+  611  which python3.6
+  612  python3.6 -m venv myenv --without-pip
+  613  source myenv/bin/activate
+  614  cd syncnet_python
+  615  bash download_model.sh
+  616  source myenv/bin/activate
+  617  python run_syncnet.py --videofile data/example.avi
+  618  pip install -r requirements.txt
+  619  pip freeze | xargs pip uninstall -y
+  620  pip install -r requirements.txt
+  621  python run_syncnet.py --videofile data/example.avi
+  622  pip freeze
+  623  python run_syncnet.py --videofile data/example.avi
+  624  pip uninstall torch -y
+  625  pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+  626  python -c "import torch; print(torch.__version__)"
+  627  pip show torch
+  628  pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html --no-user
+  629  [200~deactivate~
+  630  cd ..
+  631  deactivate
+  632  rm -rf myenv
+  633  python3.6 -m venv myenv
+  634  source myenv/bin/activate
+  635  pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html --no-user
+  636  pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html --no-cache-dir
+  637  pip install -r requirements.txt
+  638  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  639  source myenv/bin/activate
+  640  deactivate
+  641  source myenv/bin/activate
+  642  pip install -r requirements.txt
+  643  cd syncnet_python
+  644  pip install -r requirements.txt
+  645  python3.6 --version
+  646  pip install -r requirements.txt
+  647  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  648  deactivate
+  649  source myenv/bin/activate
+  650  python run_syncnet.py --videofile data/example.avi
+  651  cd syncnet_python
+  652  python run_syncnet.py --videofile data/example.avi
+  653  pip freeze
+  654  deactivate
+  655  pip freeze
+  656  deactivate
+  657  sudo apt update
+  658  sudo apt install -y software-properties-common
+  659  sudo add-apt-repository ppa:deadsnakes/ppa
+  660  sudo apt update
+  661  sudo apt install python3.6
+  662  sudo apt update
+  663  sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+  664  cd /usr/src
+  665  sudo wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
+  666  sudo tar xzf Python-3.6.15.tgz
+  667  cd Python-3.6.15
+  668  sudo ./configure --enable-optimizations
+  669  sudo make altinstall
+  670  which python3.6
+  671  cd ..
+  672  which python3.6
+  673  which python3.6
+  674  python3.6 --version
+  675  python3.6 -c
+  676  python3.6 -m venv testenv
+  677  python3.6 -m venv testenv --without-pip
+  678  source testenv/bin/activate
+  679  curl https://bootstrap.pypa.io/pip/3.6/get-pip.py | python
+  680  source testenv/bin/activate
+  681  sudo apt install --reinstall software-properties-common apturl ubuntu-drivers-common -y
+  682  cat /var/log/apt/history.log | less
+  683  pip3 list --user
+  684  pip3 uninstall cffi numpy opencv-contrib-python opencv-python pycparser python-speech-features scenedetect scipy typing_extensions -y
+  685  ldd /usr/local/bin/python3.6
+  686  deactivate
+  687  /bin/python3 /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/tony/.vscode/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  688  source testenv/bin/activate
+  689  source myenv/bin/activate
+  690  cd syncnet_python
+  691  pip install -r requirements.txt
+  692  pip check
+  693  pip install cffi
+  694  pip install typing-extensions
+  695  pip check#
+  696  pip3 list --user
+  697  nvcc --version
+  698  ls /usr/local
+  699  nano ~/.bashrc
+  700  source ~/.bashrc
+  701  nvcc --version
+  702  grep -r "def crop_video" .
+  703  source myenv/bin/activate
+  704  cd syncnet_python
+  705  source myenv/bin/activate
+  706  source venv/bin/activate
+  707  python run_syncnet.py --videofile data/example_out_of_sync.avi
+  708  pip freeze
+  709  python --version
+  710  pip install -r requirements.txt
+  711  pip freeze
+  712  pip install -r requirements.txt
+  713  deactivate
+  714  rm -rf venv
+  715  python3.7 -m venv venv
+  716  source venv/bin/activate
+  717  pip install -r requirements.txt
+  718  source venv/bin/activate
+  719  python run_syncnet.py --videofile data/example.avi
+  720  ls -l data/work/pyavi/example/
+  721  source venv/bin/activate
+  722  pip freeze
+  723  python run_syncnet.py --videofile data/example.avi
+  724  python run_syncnet.py --videofile data/example.avi 2>&1 | tee output_log.txt
+  725  c
+  726  source venv/bin/activate
+  727  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  728  cd ..
+  729  git init
+  730  git add .
+  731  git commit -m "Initial commit"
+  732  git remote add origin https://github.com/ynot-tony1/syncers.git
+  733  git branch -m main
+  734  git rm --cached syncnet_python
+  735  git add .
+  736  git commit -m "Initial commit"
+  737  git add syncnet_python
+  738  git status
+  739  git commit -m "Restore syncnet_python to staging area"
+  740  git push -u origin main
+  741  cd ..
+  742  git status
+  743  cd syncnet
+  744  cd SyncNet
+  745  git rm --cached syncnet_python
+  746  git status
+  747  cd syncnet_python
+  748  rm -rf .git
+  749  cd ..
+  750  git init
+  751  git add .
+  752  git commit -m "Initial commit"
+  753  git remote add origin https://github.com/ynot-tony1/syncers.git
+  754  rm -rf .git
+  755  git init
+  756  git add .
+  757  git commit -m "Initial commit"
+  758  git remote add origin https://github.com/ynot-tony1/sinkers.git
+  759  git push -u origin main
+  760  git push -u origin master
+  761  cd syncnet_python
+  762  source venv/bin/activate
+  763  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  764  python run_syncnet.py --videofile data/work/pycrop/example/0002.avi --reference example
+  765  python sync_video.py --videofile data/work/pycrop/example/0002.avi
+  766  python sync_video_script.py --videofile data/work/pycrop/example/0002.avi                             --resultsfile data/work/pywork/example/activesd.pckl                             --outputfile data/work/pycrop/example/0002_synced.avi
+  767  python sync_audio.py --videofile data/work/pycrop/example/0002.avi --offset 15 --outputfile data/example_synced.avi
+  768  python run_syncnet.py --videofile data/work/pycrop/example/example_synced.avi --reference example
+  769  python sync_video.py --videofile data/work/pycrop/example/0002.avi
+  770  python sync_video.py --videofile data/work/pycrop/example/0002.avi --offset 15 --outputfile data/work/pycrop/example/0002_synced.avi
+  771  python run_syncnet.py --videofile data/work/pycrop/example/0002_synced.avi --reference example
+  772  python sync_video.py --videofile data/work/pycrop/example/0002.avi --offset -15 --outputfile data/work/pycrop/example/0002_synced.avi
+  773  python sync_video.py --videofile data/work/pycrop/example/0002.avi --offset 15 --outputfile data/work/pycrop/example/0002_synced.avi
+  774  python run_syncnet.py --videofile data/work/pycrop/example/0002_synced.avi --reference example
+  775  python sync_video.py --videofile data/work/pycrop/example/0002.avi --offset 15 --outputfile data/work/pycrop/example/0002_synced.avi
+  776  python run_syncnet.py --videofile data/work/pycrop/example/0002_synced.avi --reference example
+  777  ffmpeg -i data/work/pycrop/example/example.avi -c:v copy -af "adel
+  778  python run_syncnet.py --videofile data/work/pycrop/example/0002_out_of_sync.avi --reference example
+  779  python run_syncnet.py --videofile data/work/pycrop/example/example.avi --reference example
+  780  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  781  python sync_video.py --videofile data/work/pycrop/example/0001.avi
+  782  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  783  python run_syncnet.py --videofile data/work/pycrop/example/video.avi --reference example
+  784  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  785  source venv/bin/activate
+  786  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  787  pip list
+  788  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  789  grep -r "bb_intersection_over_union" .
+  790  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  791  source venv/bin/activate
+  792  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  793  grep -r "def crop_video" .
+  794  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  795  python checkner.py
+  796  python load_and_print_results.py
+  797  source venv/bin/activate
+  798  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  799  source venv/bin/activate
+  800  python load_and_print_results.py
+  801  source venv/bin/activate
+  802  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  803  source venv/bin/activate
+  804  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  805  python load_and_print_results.py
+  806  source venv/bin/activate
+  807  python run_pipeline.py --videofile data/work/pycrop/example/example.avi --reference example
+  808  source venv/bin/activate
+  809  cd syncnet_python
+  810  source venv/bin/activate
+  811  pip show pip
+  812  python --version
+  813  pip freeze requirements
+  814  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  815  python load_and_print_results.py
+  816  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  817  pip install matplotlib==3.3.4
+  818  source venv/bin/activate
+  819  pip install matplotlib==3.3.4
+  820  pip freeze > requirementz.txt
+  821  source venv/bin/activate
+  822  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  823  python load_and_print_results.py
+  824  nvcc --version
+  825  lsb_release -a
+  826  uname -r
+  827  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  828  source venv/bin/activate
+  829  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  830  python run_syncnet.py --videofile data/work/pycrop/example/0002.avi --reference example
+  831  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  832  cd syncnet
+  833  cd syncnet_python
+  834  source venv/bin/activate
+  835  ffmpeg -y -i data/work/pycrop/example/0002.avi -ss 0.88 -i data/work/pycrop/example/0002.avi -map 0:v -map 1:a -c:v copy -c:a aac -shortest data/work/pycrop/example/0002_synced_manual.avi
+  836  python run_syncnet.py --videofile data/work/pycrop/example/0002_synced_manual.avi --reference example
+  837  python run_syncnet.py --videofile data/work/pycrop/example/0001.avi --reference example
+  838  history -a
+  839  cp ~/.bash_history ~/bash_history_backup.txt
+  840  cat ~/bash_history_backup.txt
+  841  history > ~/bash_history_backup.txt
